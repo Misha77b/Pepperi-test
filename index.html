@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Name/Value Manager</title>
+		<link rel="stylesheet" href="./styles/reset.css" />
+		<link rel="stylesheet" href="./styles/style.css" />
+		<script defer src="script.js"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<h1>Name/Value Manager</h1>
+			<input type="text" id="inputPair" placeholder="Enter name=value" />
+			<button id="addButton">Add</button>
+			<button id="sortByNameButton">Sort by Name</button>
+			<button id="sortByValueButton">Sort by Value</button>
+			<button id="showXmlButton">Show as XML</button>
+			<button id="deleteButton">Delete</button>
+
+			<select id="pairList" multiple></select>
+
+			<div id="xmlDisplay" class="hidden">
+				<h2>XML Output</h2>
+				<pre id="xmlContent"></pre>
+			</div>
+		</div>
+	</body>
+
+	<script type="module" src="./scripts/script.js"></script>
+</html>
