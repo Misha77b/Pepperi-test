@@ -6,6 +6,8 @@ import { showXmlLogic } from "./showXmlLogic.js";
 import { deleteLogic } from "./deleteLogic.js";
 
 // Select DOM elements
+const inputPair = document.getElementById("inputPair");
+const pairList = document.getElementById("pairList");
 const addButton = document.getElementById("addButton");
 const sortByNameButton = document.getElementById("sortByNameButton");
 const sortByValueButton = document.getElementById("sortByValueButton");

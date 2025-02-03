@@ -1,9 +1,6 @@
 import { validateInput } from "./helpers/validateInput.js";
 import { parseInput } from "./helpers/parseInput.js";
 
-const inputPair = document.getElementById("inputPair");
-const pairList = document.getElementById("pairList");
-
 export function addLogic() {
 	const input = inputPair.value;
 	if (validateInput(input)) {
